@@ -15,4 +15,3 @@ jobs:
           password: 'AnosVoldigoad1'
           url: 'jdbc:postgresql://localhost/template1'
           referenceUrl: 'jdbc:postgresql://181.215.242.81:19920/psql'
-          name: Build and Test
