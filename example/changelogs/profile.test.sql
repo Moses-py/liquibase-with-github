@@ -9,3 +9,6 @@ create table company (
     address2 varchar(50),
     city varchar(30)
 )
+
+--changeset max:2
+INSERT INTO company VALUES (1,'Garmatsch Software','2, Anderlusten', 'Hamburg', "Berlin" );
