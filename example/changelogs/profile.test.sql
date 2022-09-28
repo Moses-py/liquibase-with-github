@@ -11,4 +11,4 @@ create table company (
 )
 
 --changeset max:2
-INSERT INTO company VALUES (1,'Garmatsch Software','2, Anderlusten', 'Hamburg', "Berlin" );
+INSERT INTO company VALUES (1,'Garmatsch Software','2, Anderlusten', 'Hamburg' );
