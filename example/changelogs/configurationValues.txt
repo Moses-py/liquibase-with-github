@@ -1,0 +1,7 @@
+# Set these values in CI/CD configuration to connect to an embedded H2 database and run example
+
+logLevel: info
+changeLogFile: profile.test.sql
+url: jdbc:postgresql://localhost/template1
+username: postgres
+password: admin
