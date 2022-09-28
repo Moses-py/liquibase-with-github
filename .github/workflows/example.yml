@@ -15,4 +15,3 @@ jobs:
           password: 'admin'
           url: 'jdbc:postgresql://localhost/template1'
           referenceUrl: 'jdbc:postgresql://localhost/template1'
-          name: Build and Test
