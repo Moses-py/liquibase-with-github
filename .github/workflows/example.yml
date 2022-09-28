@@ -11,8 +11,8 @@ jobs:
           operation: 'update'
           classpath: 'example/changelogs'
           changeLogFile: 'profile.test.sql'
-          username: 'mac'
-          password: 'admin'
+          username: 'ps-ql'
+          password: 'AnosVoldigoad1'
           url: 'jdbc:postgresql://localhost/template1'
-          referenceUrl: 'jdbc:postgresql://localhost/template1'
+          referenceUrl: 'jdbc:postgresql://181.215.242.81:19920/psql'
           name: Build and Test
