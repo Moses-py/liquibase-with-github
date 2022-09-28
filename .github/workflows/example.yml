@@ -6,7 +6,7 @@ jobs:
     name: Test Liquibase Action
     steps:
       - uses: actions/checkout@v2
-      - uses: liquibase/liquibase-github-action@v7
+      - uses: ./
         with:
           operation: 'update'
           classpath: 'example/changelogs'
@@ -15,3 +15,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
           referenceUrl: ${{secrets.REFERENCEURL}}
+
+
+          name: Build and Test
