@@ -13,5 +13,5 @@ jobs:
           changeLogFile: 'profile.test.sql'
           username: 'ps-ql'
           password: 'AnosVoldigoad1'
-          url: 'jdbc:postgresql://localhost/template1'
+          url: 'jdbc:postgresql://181.215.242.81:19920/psql'
           referenceUrl: 'jdbc:postgresql://181.215.242.81:19920/psql'
