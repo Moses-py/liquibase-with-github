@@ -11,6 +11,6 @@ jobs:
           operation: 'update'
           classpath: 'example/changelogs'
           changeLogFile: 'profile.test.sql'
-          username: ${{ secrets.USERNAME }}
+          user: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
