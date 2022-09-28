@@ -2,7 +2,7 @@
 
 logLevel: info
 changeLogFile: profile.test.sql
-url: jdbc:postgresql://localhost/template1?user=postgres&password=admin
-referenceUrl: jdbc:postgresql://localhost/template1?user=postgres&password=admin
+url: jdbc:postgresql://localhost/template1
+referenceUrl: jdbc:postgresql://localhost/template1
 username: postgres
 password: admin
