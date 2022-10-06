@@ -4,6 +4,7 @@
 create table company (
     id int primary key,
     name varchar(50) not null,
+    age INT
 )
 
 --changeset max:2
